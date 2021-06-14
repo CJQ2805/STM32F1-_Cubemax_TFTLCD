@@ -23,7 +23,7 @@
 #include <usart.h>
 #include "stdio.h"
 #include "fsmc.h"
-
+#include <log.h>
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -106,7 +106,14 @@ int main(void)
   {
     /* USER CODE END WHILE */
 
-	
+	  //printf("test");
+	 loggreen("test_green");
+	 logn();
+	 logerr("test_erro");
+	 logn();
+	 logyellow("test_yellow");
+	 logn();
+	 logblue("test_blue");
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

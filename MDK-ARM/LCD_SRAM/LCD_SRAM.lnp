@@ -26,6 +26,7 @@
 "lcd_sram\tftlcd.o"
 "lcd_sram\syscommdef.o"
 "lcd_sram\delay.o"
+"lcd_sram\log.o"
 --library_type=microlib --strict --scatter "LCD_SRAM\LCD_SRAM.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

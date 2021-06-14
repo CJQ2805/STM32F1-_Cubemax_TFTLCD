@@ -5,9 +5,6 @@
 UART_HandleTypeDef huart1;
 
 
-
-
-
 #if 1
 #pragma import(__use_no_semihosting)             
 //标准库需要的支持函数                 

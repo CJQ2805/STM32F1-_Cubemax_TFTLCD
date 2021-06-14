@@ -40,3 +40,4 @@ lcd_sram\main.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 lcd_sram\main.o: ../Core/Inc/main.h
 lcd_sram\main.o: ..\hardware_driver\usart.h
 lcd_sram\main.o: ..\hardware_driver\fsmc.h
+lcd_sram\main.o: ..\Src\tool\log.h
